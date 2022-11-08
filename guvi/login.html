@@ -1,0 +1,58 @@
+ 
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Up</title>
+    
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    
+    <link rel="stylesheet" href="cs/login.css">
+         
+   
+</head>
+<body>
+    
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Login</span>
+
+                <form action="php/login.php" method="post">
+                    <div class="input-field">   
+                        <input type="text" placeholder="Enter your email"  name="mail"  required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Enter your password" name="pass"  required>
+                        <i class="uil uil-lock icon"></i>
+                         
+                    </div>
+
+                     
+
+                    
+                        <button type="submit"  class="but">Login</button>
+                    
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Dont't have a account?
+                        <a href="signup.html" class="text signup-link">Signup Now</a>
+                    </span>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <script sec="php\login.php"></script>
+
+    
+</body>
+</html>
+
